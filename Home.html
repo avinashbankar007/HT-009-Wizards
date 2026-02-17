@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Heritage | The Aurelian Time</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Specific Styles for About Page */
+        .about-container {
+            max-width: 800px;
+            margin: 80px auto;
+            padding: 0 20px;
+            line-height: 1.8;
+            text-align: center;
+        }
+
+        .gold-divider {
+            width: 60px;
+            height: 2px;
+            background-color: #c5a059;
+            margin: 30px auto;
+        }
+
+        .philosophy-section {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            margin-top: 60px;
+            text-align: left;
+        }
+
+        .philosophy-text {
+            flex: 1;
+        }
+
+        .philosophy-image {
+            flex: 1;
+            height: 400px;
+            background: #222 url('https://images.unsplash.com/photo-1509048191080-d2984bad6ad5?auto=format&fit=crop&q=80&w=800') center/cover;
+            border: 1px solid #c5a059;
+        }
+
+        h2 {
+            color: #c5a059;
+            font-size: 2rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 50px;
+            color: #c5a059;
+            text-decoration: none;
+            font-size: 0.9rem;
+            border-bottom: 1px solid transparent;
+            transition: 0.3s;
+        }
+
+        .back-link:hover {
+            border-bottom: 1px solid #c5a059;
+        }
+
+        @media (max-width: 768px) {
+            .philosophy-section {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="about-container">
+        <p style="letter-spacing: 3px; color: #c5a059; text-transform: uppercase; margin-bottom: 10px;">The Story</p>
+        <h1>A Legacy in Every Second</h1>
+        <div class="gold-divider"></div>
+        
+        <p>Founded on the principles of the "Golden Age," <strong>The Aurelian Time</strong> was born from a singular obsession: to create timepieces that don't just measure hours, but define them. We believe a watch is the only piece of jewelry that carries a heartbeat.</p>
+
+        <section class="philosophy-section">
+            <div class="philosophy-image"></div>
+            <div class="philosophy-text">
+                <h2>Our Craft</h2>
+                <p>Every Aurelian watch undergoes 200 hours of rigorous testing. Our master horologists in our atelier use a blend of traditional hand-assembly and modern metallurgical precision. We specialize in 18k gold plating and sapphire crystal glass, ensuring your legacy remains scratch-less for generations.</p>
+            </div>
+        </section>
+
+        <div class="gold-divider"></div>
+
+        <h2>The Aurelian Promise</h2>
+        <p>We don't believe in mass production. We believe in "The Aurelian Standard"—limited runs, ethically sourced materials, and a lifetime warranty that moves with the watch, not just the owner.</p>
+
+        <a href="index.html" class="back-link">← Return to Home</a>
+    </div>
+
+    <footer style="text-align: center; padding-bottom: 50px; color: #555;">
+        <p>&copy; 2026 The Aurelian Time</p>
+    </footer>
+
+</body>
+</html>
